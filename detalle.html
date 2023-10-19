@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Detalles del paciente</title>
+    <link rel="stylesheet" href="estilo de detalle.css">
+  </head>
+  <body>
+        <form>
+            <div class="detalles-paciente">
+                <h1>Detalles del paciente</h1>
+                <div class="detalles">
+                    <label for="fecha-inicio">Fecha de inicio de tratamiento:</label>
+                    <input type="date" id="fecha-inicio" name="fecha-inicio">
+
+                    <label for="cita">Número de cita:</label>
+                    <input type="number" id="cita" name="cita">
+
+                    <label for="asunto">Asunto:</label>
+                    <textarea id="asunto" name="asunto"></textarea>
+
+                    <label for="diagnostico">Diagnóstico odontologico:</label>
+                    <textarea id="diagnostico" name="diagnostico"></textarea>
+
+                    <label for="tratamiento">Tratamiento odontologico:</label>
+                    <textarea id="tratamiento" name="tratamiento"></textarea>
+
+                    <input type="submit" value="Guardar" onclick="valid2()">
+                    <input type="button" value="Regresar a la pagina de inicio"  onclick="regreso()" >
+                </div>
+            </div>
+        </form>
+    </main>
+    <script src="validacion de detalle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+   width: 550px;
+   padding: 50px;
+   background-color: rgba(85, 83, 83, 0.602);
+   box-shadow: 0 0 10px #111111;
+   border-radius: 10px;
+  }
+
+  h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+ body{
+    background-image: url(portada.jpg);
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+ }
+  
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="tel"],
+  input[type="email"],
+  select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  input[type="text"],
+  textarea {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="date"],
+  input[type="time"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #cae6ca;
+    color: #070707;
+    padding: 8px 0px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #95b3eb;
+  }
+
+  input[type="button"] {
+    background-color: #cae6ca;
+    color: #070707;
+    border: none;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #95b3eb;
+}

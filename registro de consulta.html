@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registro de consulta</title>
+    <link rel="stylesheet" href="estilo de registro de consulta.css">
+  </head>
+  <body>
+    <main>
+        <form >
+            <h1>Registro de consulta</h1>
+            <label for="nombre_paciente">Nombre del paciente:</label>
+            <input type="text" id="nombre_paciente" name="nombre_paciente" >
+            
+            <label for="fecha_consulta">Fecha de consulta:</label>
+            <input type="date" id="fecha_consulta" name="fecha_consulta" >
+            
+            <label for="hora_consulta">Hora:</label>
+            <input type="time" id="hora_consulta" name="hora_consulta" >
+
+            <label for="medico">Correo:</label>
+            <input type="email" id="email" name="email" >
+            
+            <label for="sintomas">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" ></textarea>
+            
+            <label for="diagnostico">Asunto:</label>
+            <textarea id="asunto" name="asunto" ></textarea>
+            
+            <label for="tratamiento">Tratamiento:</label>
+            <textarea id="tratamiento" name="tratamiento" ></textarea>
+            
+            <input type="submit" value="Registrar consulta" onclick="valid1()">
+            <input type="button" value="Regresar a la pagina de inicio"  onclick="regreso()" >
+        </form>
+    </main>
+    <script src="validacion consulta.js"></script>
+  </body>
+</html>
